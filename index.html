@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <title>Jquery Practice</title>
+  </head>
+  <body>
+    <!-- start header -->
+    <header class="position-relative d-flex justify-content-center align-items-center" id="home">
+      <div class="title text-center text-white position-relative z-1">
+        <h1>Egyption Party</h1>
+        <p>let's have fun</p>
+      </div>
+      <div class="layer">
+        <nav class="bg-black vh-100 position-absolute" id="nav">
+          <i class="fa-solid fa-bars position-absolute bars fs-3 text-white" id="bars_button"></i>
+          <i class="fa-solid fa-xmark position-absolute mb-3 fs-3 text-white x-mark" id="close"></i>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-3 text-white"><a class="nav-link text-reset" href="#home">Home</a></li>
+            <li class="nav-item mb-3 text-white"><a class="nav-link text-reset" href="#duration">Duration</a></li>
+            <li class="nav-item mb-3 text-white"><a class="nav-link text-reset" href="#details">Details</a></li>
+            <li class="nav-item mb-3 text-white"><a class="nav-link text-reset" href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- end header -->
+
+    <!-- start duration -->
+    <section id="duration" class="py-5">
+      <div class="container w-50">
+
+        <div class="singer singer1">
+          <h2 class="text-center text-white">Singer one</h2>
+          <p class="para">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, labore. Deleniti architecto id cupiditate incidunt repellendus, expedita magnam beatae, maiores, minus blanditiis delectus ut maxime ab repellat rerum ipsum impedit.
+          </p>
+        </div>
+        <div class="singer singer2">
+          <h2 class="text-center text-white">Singer two</h2>
+          <p class="para">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, labore. Deleniti architecto id cupiditate incidunt repellendus, expedita magnam beatae, maiores, minus blanditiis delectus ut maxime ab repellat rerum ipsum impedit.
+          </p>
+        </div>
+        <div class="singer singer3">
+          <h2 class="text-center text-white">Singer three</h2>
+          <p class="para">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, labore. Deleniti architecto id cupiditate incidunt repellendus, expedita magnam beatae, maiores, minus blanditiis delectus ut maxime ab repellat rerum ipsum impedit.
+          </p>
+        </div>
+        <div class="singer singer4">
+          <h2 class="text-center text-white">Singer four</h2>
+          <p class="para">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, labore. Deleniti architecto id cupiditate incidunt repellendus, expedita magnam beatae, maiores, minus blanditiis delectus ut maxime ab repellat rerum ipsum impedit.
+          </p>
+        </div>
+
+      </div>
+    </section>
+    <!-- end duration -->
+
+    <!-- start count Down -->
+    <div id="countdown" class="position-relative">
+      <div class="over-lay p-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3">
+              <div id="days" class="numBox">0 Days</div>
+            </div>
+            <div class="col-lg-3">
+              <div id="hours" class="numBox">0 Hours</div>
+            </div>
+            <div class="col-lg-3">
+              <div id="minutes" class="numBox">0 Minutes</div>
+            </div>
+            <div class="col-lg-3">
+              <div id="seconds" class="numBox">0 Seconds</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end count Down -->
+
+    <!-- start form -->
+    <section class="contact-us py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h2>CONTACT INFO</h2>
+            <p class="mb-4">Why you should hire me writeup Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque nascetur ridiculus mus.</p>
+            <ul class="list-unstyled mb-5">
+              <li class="mb-3"><i class="fa fa-map-marker fa-fw me-2"></i>New Street 22545, Nexa Road, New York City, USA</li>
+              <li class="mb-3"><i class="fa fa-envelope fa-fw me-2"></i>hello@uigrid.com</li>
+              <li class="mb-3"><i class="fa fa-phone fa-fw me-2"></i>001-000-000-000</li>
+            </ul>
+            <div class="social-list">
+              <i class="fab fa-twitter fa-fw"></i>
+              <i class="fab fa-facebook-f fa-fw"></i>
+              <i class="fab fa-instagram fa-fw"></i>
+              <i class="fab fa-dribbble fa-fw"></i>
+              <i class="fab fa-pinterest fa-fw"></i>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <form action="" class=" p-3">
+              <input class="form-control mb-3" type="text" name="" placeholder="Enter Name">
+              <input class="form-control mb-3" name="" placeholder="Enter Email">
+              <textarea class="form-control mb-3 message" name="message" id="" cols="30" rows="6" placeholder="Enter Message"></textarea>
+              <p class="text-value d-none py-3"></p>
+              <button type="submit" class="btn btn-danger"><i class="fa-solid fa-paper-plane me-2"></i>Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end form -->
+
+    
+    <script src="js/code.jquery.com_jquery-3.7.0.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

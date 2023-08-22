@@ -1,0 +1,14 @@
+@media (width <= 500px) {
+  header .title h1 {
+    font-size: 2rem;
+  }
+  header .title p {
+    font-size: 1rem;
+  }
+  nav {
+    width: 50%;
+  }
+  nav a {
+    font-size: 1.2rem !important;
+  }
+}
